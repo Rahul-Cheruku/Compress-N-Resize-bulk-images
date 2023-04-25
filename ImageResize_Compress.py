@@ -2,11 +2,13 @@ import math
 import os
 from PIL import Image
 
-# User input - specify the folder containing the images
+# User input - specify the folder containing the images & default
 
 # inputs
-
+# example 'testing' folder
 folder_path = "C:/Users/rahul/Desktop/testing"
+
+# note quality's value shall be from 1 to 95
 default = {
     'width': 800,
     'quality': 30,
@@ -43,8 +45,6 @@ for imgURL in img_list:
     # Get the width and height of the original image
     width, height = image.size
 
-    # Set the desired size of the resized image
-    # new_size = (900, 1600)
     try:
         new_width = int(input(f"Enter the width of {imgName} image: "))
 
