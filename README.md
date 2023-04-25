@@ -8,7 +8,6 @@ Features:
 1. With few noob modifications it can compress and resize unlimted images of different extensions on ONE CLICK
 2. It creates a sub-directory (folder) within the images folder you provided
 3. It will resize only when necessary otherwise it skips it
-
 4.you can leave the input prompt blank to apply default or modify it to not ask prompt for each image  
 
 
